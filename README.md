@@ -19,4 +19,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+While working on this project, I used several sources to read more into HTML and CSS. The sites I visited include the following:
+-https://www.w3schools.com/html/html_links_colors.asp
+-https://www.w3schools.com/Css/css_link.asp 
+-https://stackoverflow.com/questions/4383460/dont-change-link-color-when-a-link-is-clicked#:~:text=Don%27t%20change%20link%20color,when%20a%20link%20is%20clicked&text=Don%27t%20change%20link%20color,a%20link%20is%20clicked&text=link%20color,when%20a%20link%20is 
+
