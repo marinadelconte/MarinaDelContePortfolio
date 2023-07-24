@@ -10,6 +10,11 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 10;
+    
+}
+
+main {
+    display: flex;
 }
 
 header {
@@ -40,47 +45,38 @@ nav a:hover {
     text-decoration: underline;
     color: olivedrab;
 }
-
-aside img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    
-    
+aside {
+    width: 210px;
+    height: 400px;
+    background-color: white
 }
 
-.container1 {
+aside img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;    
+}
+
+aside p {
+    width: 200px;  
+}
+
+.project {
     display: grid;
     row-gap: 20px;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 300x 100px 100px;
+    background-color: blanchedalmond;
 }
 
 footer p {
     display: flex;
+    margin-bottom: 0;
     text-align: center;
     justify-content: center;
     background: var(--peach);
     padding: 8px;
     color: var(--text);
     
-}
-
-@media screen and (max-width: 992px) {
-    .card {
-        width: 50%;
-    }
-
-    header {
-        background-color: rgb(55, 43, 226);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
-
-    header {
-        background-color: rgb(181, 207, 214);
-    }
 }

@@ -17,5 +17,7 @@ While working on this project, I used several sources to read more into HTML and
 https://www.w3schools.com/html/html_links_colors.asp
 https://www.w3schools.com/Css/css_link.asp 
 https://www.jsdiaries.com/how-to-remove-html-purple-link-an-easy-solution/
+https://www.w3schools.com/css/css3_images.asp
+
 
 
