@@ -4,6 +4,7 @@
 
 :root {
     --text: #7575a5;
+    --peach: blanchedalmond;
 }
 
 body {
@@ -16,7 +17,7 @@ header {
     margin: 0;
     text-align: center;
     line-height: 0.5;
-    background: blanchedalmond;
+    background: var(--peach);
     color: var(--text);
 }
 
@@ -27,7 +28,7 @@ nav ul {
     padding: 1%;
     background-color: aliceblue;
     margin-top: 0%;
-}
+    }
 
 nav a:link,
 a:visited {
@@ -41,19 +42,22 @@ nav a:hover {
 }
 
 aside {
-    flex: 30%;
-    padding: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
+    
 }
 
-.container {
+.container1 {
     display: grid;
     row-gap: 20px;
 }
 
-footer {
+footer p {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    background: var(--peach);
+    padding: 8px;
+    color: var(--text);
+    
 }
 
 @media screen and (max-width: 992px) {
