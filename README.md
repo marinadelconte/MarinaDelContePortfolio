@@ -6,9 +6,10 @@ This project was created to showcase my portfolio as a software developer. I use
 
 ## Usage
 
-The site can be accessed via the following url:
+The site can be accessed via the following url: https://marinadelconte.github.io/MarinaDelContePortfolio/#portfolio
 
 Below is an image of the website:
+![Screenshot (4)](https://github.com/marinadelconte/MarinaDelContePortfolio/assets/137957098/d94ba064-b5ea-4305-b2a2-50ddccf5eabf)
 
 
 ## Credits
