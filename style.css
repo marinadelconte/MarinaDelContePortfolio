@@ -36,13 +36,18 @@ nav ul {
     margin-left: 0px;;
 }
 
+nav ul li {
+    font-size: 14px;
+}
+
 nav a:link,
 a:visited {
     text-decoration: none;
     color: black;
 }
 
-nav a:hover {
+nav a:hover,
+div a:hover { 
     text-decoration: underline;
     color: var(--green);
 }
@@ -50,7 +55,7 @@ nav a:hover {
 aside {
     width: 210px;
     height: 400px;
-    background-color: white
+    background-color: white;
 }
 
 aside img {
@@ -66,7 +71,13 @@ aside p {
     margin-left: none;
     font-size: 11px;
     color: var(--text);
+}
 
+div a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
 }
 
 ul {
@@ -75,6 +86,7 @@ ul {
     font-size: 11px;
     margin-left: -12px;
     color: #6b8e23;
+      
 }
 
 .projects {
@@ -90,6 +102,7 @@ ul {
 .projects header {
     display: inline-block;
     text-align: center;
+    font-size: larger;
     background-color: transparent;
     flex-direction: column-reverse;
     position: absolute;
