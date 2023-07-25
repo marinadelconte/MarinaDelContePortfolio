@@ -110,6 +110,11 @@ ul {
     padding: 40px;
 }
 
+.projects img {
+    width: 100%;
+    opacity: 0.25;
+    
+}
 
 .card {
     display: flex;
