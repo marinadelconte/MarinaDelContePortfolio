@@ -1,7 +1,7 @@
 # MarinaDelContePortfolio
 
 ## Description
-This project was created to showcase my portfolio as a software developer. I used HTML and CSS to begin this webpage. Please note that this project will continue to evolve as my portfolio continues to build and this is not what the finished site will look like. There are several links and images that are just placeholders to be replaced in the future once I have created those projects.
+This project was created to showcase my portfolio as a software developer. I used HTML and CSS to begin this webpage. Please note that this project will continue to evolve as my portfolio continues to build and this is not what the finished site will look like. There are several links and images that are just placeholders to be replaced in the future once I have created those projects. Addiitonally, more style effects and interactive design elements will be incorporated once we build that knowledge in class.
 
 
 ## Usage
