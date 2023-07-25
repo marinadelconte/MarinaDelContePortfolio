@@ -26,6 +26,14 @@ header {
     color: var(--text);
 }
 
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 25px;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -38,7 +46,7 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 nav a:link,
@@ -54,23 +62,24 @@ div a:hover {
 }
 
 aside {
-    width: 210px;
+    width: 350px;
     height: 400px;
     background-color: white;
 }
 
 aside img {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    align-items: center;
 }
 
 aside p {
-    width: 200px;
+    width: 300px;
     text-align: center;
     margin-left: none;
-    font-size: 11px;
+    font-size: 16px;
     color: var(--text);
 }
 
@@ -79,7 +88,7 @@ div a {
     font-style: oblique;
     text-decoration: none;
     color: black;
-    margin-left: 50px;
+    margin-left: 110px;
 }
 
 #work1 {
@@ -91,16 +100,12 @@ div a {
     max-height: 200px;
 }
 
-.smallerImages {
-    max-height: 100px;
-
-}
 
 ul {
     text-align: left;
     list-style-type: circle;
-    font-size: 11px;
-    margin-left: -12px;
+    font-size: 16px;
+    margin-left: -5px;
     color: #6b8e23;
 
 }
