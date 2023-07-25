@@ -107,7 +107,7 @@ ul {
     background-color: transparent;
     flex-direction: column-reverse;
     position: absolute;
-    padding: 40px;
+    padding: 15px;
 }
 
 .projects img {
@@ -150,6 +150,9 @@ footer p {
     header {
         background-color: rgb(219, 205, 231);
     }
+    .card {
+        flex-basis: 100%;
+}
 }
 
 @media screen and (max-width: 768px) {
