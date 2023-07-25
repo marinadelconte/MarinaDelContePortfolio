@@ -75,6 +75,7 @@ aside p {
 
 div a {
     font-size: larger;
+    font-style: oblique;
     text-decoration: none;
     color: black;
     margin-left: 50px;

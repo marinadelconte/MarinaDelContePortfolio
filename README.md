@@ -18,6 +18,8 @@ https://www.w3schools.com/html/html_links_colors.asp
 https://www.w3schools.com/Css/css_link.asp 
 https://www.jsdiaries.com/how-to-remove-html-purple-link-an-easy-solution/
 https://www.w3schools.com/css/css3_images.asp
-
+https://www.w3schools.com/csS/css_text_decoration.asp 
+https://www.w3schools.com/Css/css_positioning.asp
+https://www.w3schools.com/css/css_website_layout.asp
 
 
