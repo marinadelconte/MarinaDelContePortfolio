@@ -5,6 +5,7 @@
 :root {
     --text: #7575a5;
     --peach: blanchedalmond;
+    --green: #6b8e23;
 }
 
 body {
@@ -42,7 +43,7 @@ a:visited {
 
 nav a:hover {
     text-decoration: underline;
-    color: olivedrab;
+    color: var(--green);
 }
 aside {
     width: 210px;
@@ -58,28 +59,50 @@ aside img {
 }
 
 aside p {
-    width: 200px;  
+    width: 200px;
+    text-align: center;
+    margin-left: none;
+    font-size: 11px;
+
+}
+
+ul {
+    text-align: left;
+    list-style-type: circle;
+    font-size: 11px;
+    margin-left: -12px;
+    color: #6b8e23;
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 20px;
+    gap: 10px;
+    column-gap: 10px;
     justify-content: space-between;
-    /* background-color: blanchedalmond; */
-}
+   }
 
-.card {
+   .projects header {
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    flex-direction: column-reverse;
+   }
+
+      
+   .card {
     display: flex;
     border: 2px dotted grey;
-    flex-basis: 45%;
+    flex-basis: 49%;
     height: 100px;
     background-color: var(--peach);
-}
+    justify-content: center;
+   }
+
 
 .card:hover {
-    box-shadow: 0 0 50px rgb(202, 201, 201);
+    box-shadow: 0 0 10px #6b8e23;
 }
 
 .card1 {
@@ -107,12 +130,15 @@ footer p {
   
 @media screen and (max-width: 768px) {       
     header {
-        background-color: rgb(214, 217, 223);
+    background-color: rgb(214, 217, 223);
        }
 }
 
 @media screen and (max-width: 576px) {
     header {
     background-color: rgb(206, 230, 206);
+    }
+    .card {
+        width: 100%;
     }
  }
