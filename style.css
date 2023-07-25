@@ -11,7 +11,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 15;
-    }
+}
 
 main {
     display: flex;
@@ -33,7 +33,8 @@ nav ul {
     padding: 1%;
     background-color: aliceblue;
     margin-top: 0%;
-    }
+    margin-left: 0px;;
+}
 
 nav a:link,
 a:visited {
@@ -45,6 +46,7 @@ nav a:hover {
     text-decoration: underline;
     color: var(--green);
 }
+
 aside {
     width: 210px;
     height: 400px;
@@ -55,7 +57,7 @@ aside img {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
 
 aside p {
@@ -63,6 +65,7 @@ aside p {
     text-align: center;
     margin-left: none;
     font-size: 11px;
+    color: var(--text);
 
 }
 
@@ -81,24 +84,27 @@ ul {
     gap: 10px;
     column-gap: 10px;
     justify-content: space-between;
-   }
+    margin-bottom: 10px;
+}
 
-   .projects header {
+.projects header {
     display: inline-block;
     text-align: center;
     background-color: transparent;
     flex-direction: column-reverse;
-   }
+    position: absolute;
+    padding: 40px;
+}
 
-      
-   .card {
+
+.card {
     display: flex;
-    border: 2px dotted grey;
+    border: none;
     flex-basis: 49%;
     height: 100px;
     background-color: var(--peach);
     justify-content: center;
-   }
+}
 
 
 .card:hover {
@@ -119,26 +125,22 @@ footer p {
     background: var(--peach);
     padding: 8px;
     color: var(--text);
-    
 }
 
 @media screen and (max-width: 992px) {
     header {
-    background-color: rgb(219, 205, 231);
-      }
+        background-color: rgb(219, 205, 231);
+    }
 }
-  
-@media screen and (max-width: 768px) {       
+
+@media screen and (max-width: 768px) {
     header {
-    background-color: rgb(214, 217, 223);
-       }
+        background-color: rgb(214, 217, 223);
+    }
 }
 
 @media screen and (max-width: 576px) {
     header {
-    background-color: rgb(206, 230, 206);
+        background-color: rgb(206, 230, 206);
     }
-    .card {
-        width: 100%;
-    }
- }
+}
