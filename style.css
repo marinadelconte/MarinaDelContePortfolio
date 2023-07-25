@@ -81,6 +81,20 @@ div a {
     margin-left: 50px;
 }
 
+#work1 {
+    margin-left: 0px;
+    min-width: 100%; 
+}
+
+#img1 {
+    max-height: 200px;
+    }
+
+.smallerImages{
+    max-height: 100px;
+
+}
+
 ul {
     text-align: left;
     list-style-type: circle;
@@ -170,5 +184,8 @@ footer p {
     }
     .card {
         flex-basis: 100%;
+    }
+    .card1 img {
+        height: 100%;
     }
 }
