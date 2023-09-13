@@ -94,15 +94,6 @@ div a {
     margin-left: 75px;
 }
 
-#work1 {
-    margin-left: 0px;
-    min-width: 100%;
-}
-
-#img1 {
-    max-height: 300px;
-}
-
 
 ul {
     text-align: left;
@@ -110,53 +101,33 @@ ul {
     font-size: 16px;
     margin-left: 10px;
     color: #6b8e23;
-
 }
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 10px;
-    column-gap: 15px;
-    justify-content: space-between;
-    margin-bottom: 0;
-}
-
-.projects header {
-    display: inline-block;
+.bigCard header {
+    display: inline-flex;
+    align-items: center;
     text-align: center;
-    font-size: 25px;
-    background-color: transparent;
-    flex-direction: column-reverse;
-    position: absolute;
-    padding: 15px;
-}
-
-.projects img {
-    width: 100%;
-    opacity: 0.25;
-
-}
-
-.card {
-    display: flex;
-    border: none;
-    flex-basis: 49%;
-    height: 170px;
-    background-color: var(--peach);
     justify-content: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+    background-color: transparent;    
+}
+
+.bigCard {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 600px;
+    border-radius: 25px;
+    background-color: #e0e0f1;
+    cursor: grab;
 }
 
 
+.bigCard:hover,
 .card:hover {
     box-shadow: 0 0 10px #6b8e23;
-}
-
-.card1 {
-    display: flex;
-    flex-basis: 100%;
-    height: 300px;
 }
 
 footer p {
@@ -168,6 +139,7 @@ footer p {
     padding: 8px;
     color: var(--text);
 }
+
 /* Will adjust card size and header color depending on webpage size  */
 @media screen and (max-width: 992px) {
     header {
@@ -180,9 +152,9 @@ footer p {
 
     }
 
-    .card1 img {
+    .bigCard {
         flex-basis: 100%;
-        height: 100%;
+        height: 50%;
     }
 
 }
@@ -196,9 +168,9 @@ footer p {
         flex-basis: 100%;
     }
 
-    .card1 img {
+    .bigCard {
         flex-basis: 100%;
-        height: 100%;
+        height: 50%;
     }
 }
 
@@ -211,8 +183,8 @@ footer p {
         flex-basis: 100%;
     }
 
-    .card1 img {
+    .bigCard {
         flex-basis: 100%;
-        height: 100%;
+        height: 50%;
     }
 }
